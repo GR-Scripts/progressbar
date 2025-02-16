@@ -18,14 +18,19 @@ body {
     display: none;
     z-index: 5;
     color: #fff;
-    width: 15%;
+    width: 25%; /* Pas dit aan naar de gewenste breedte */
     position: fixed;
-    bottom: 15%;
+    bottom: 5%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     font-family: "Poppins", sans-serif;
+    border: 2px solid #dc143c; /* Rand voor de box */
+    border-radius: 8px; /* Afgeronde hoeken */
+    padding: 10px; /* Ruimte tussen de inhoud en de rand */
+    background-color: rgba(0, 0, 0, 0.7); /* Achtergrondkleur voor de box */
+    box-shadow: 0 0 15px rgba(220, 20, 60, 0.8); /* Schaduw voor een diepere look */
 }
 
 .progress-labels {
